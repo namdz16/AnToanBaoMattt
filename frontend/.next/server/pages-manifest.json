@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/admin/dashboard": "pages/admin/dashboard.html",
+  "/admin/login": "pages/admin/login.html",
+  "/admin/logs": "pages/admin/logs.html",
+  "/admin/user-list": "pages/admin/user-list.html",
+  "/change-password": "pages/change-password.html",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/register": "pages/register.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

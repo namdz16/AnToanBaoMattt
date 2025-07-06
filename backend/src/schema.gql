@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  getLoginLogs: [String!]!
+  getUsers: [String!]!
+}
+
+type Mutation {
+  register(username: String!, password: String!): String!
+  login(username: String!, password: String!): String!
+  changePassword(username: String!, oldPassword: String!, newPassword: String!): String!
+  unlockUser(username: String!): String!
+  deleteUser(username: String!): String!
+  registerAdmin(username: String!, password: String!): String!
+  loginAdmin(username: String!, password: String!): String!
+  changeAdminPassword(username: String!, oldPassword: String!, newPassword: String!): String!
+}
